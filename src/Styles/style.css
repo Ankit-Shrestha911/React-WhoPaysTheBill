@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Supermercado One', cursive;
+
+}
+
+.Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+
+.center-wrapper h1{
+    color:rgb(190, 64, 190);
+}
+
+.center-wrapper h4{
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+    padding: 15px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    background-color: cornflowerblue;
+    border: none;
+    box-shadow: 5px 5px 10px 0px black;
+    outline: none;
+    cursor: pointer;
+    text-shadow: 1px 1px 5px grey;
+}
+
+.list-group{
+    margin-top: 40px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.list-group li{
+    border: 1px solid black;
+    padding: 6px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-group::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.list-group{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.removeBtn{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 0 5px;
+    margin-right: 10px;
+    cursor:pointer;
+}
+.main-list{
+    position: relative;
+}
+.next{
+    position: absolute;
+    right: 0;
+    margin-top: 40px;
+    
+}
+
+/* Stage 2 */
+
+.looser-wrapper{
+    margin: 20px 0;
+    padding: 5px;
+}
+
+.looser-wrapper h2 > span{
+    color: red;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.looserBtn{
+    margin-right: 20px;
+}
+
