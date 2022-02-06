@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-WhoPaysTheBill/static/css/main.5547223a.css",
+    "main.js": "/React-WhoPaysTheBill/static/js/main.68f3863e.js",
+    "index.html": "/React-WhoPaysTheBill/index.html",
+    "main.5547223a.css.map": "/React-WhoPaysTheBill/static/css/main.5547223a.css.map",
+    "main.68f3863e.js.map": "/React-WhoPaysTheBill/static/js/main.68f3863e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5547223a.css",
+    "static/js/main.68f3863e.js"
+  ]
+}
